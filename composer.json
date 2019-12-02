@@ -1,6 +1,6 @@
 {
     "name": "vdlp/oc-schemaorg-plugin",
-    "description": "Provides the rendering of structured data.",
+    "description": "Provides the rendering of structured data on your October CMS powered website.",
     "type": "october-plugin",
     "license": "GPL-2.0",
     "authors": [
