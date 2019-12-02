@@ -2,7 +2,7 @@
     "name": "vdlp/oc-schemaorg-plugin",
     "description": "Provides the rendering of structured data.",
     "type": "october-plugin",
-    "license": "proprietary",
+    "license": "GPL-2.0",
     "authors": [
         {
             "name": "Van der Let & Partners",
