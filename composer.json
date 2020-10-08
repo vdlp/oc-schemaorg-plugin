@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.2",
-        "spatie/schema-org": "^2.11"
+        "spatie/schema-org": "^3.1"
     },
     "archive": {
         "exclude": [
