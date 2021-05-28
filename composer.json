@@ -11,8 +11,9 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=7.2",
-        "spatie/schema-org": "^2.11"
+        "php": "^7.3||^8.0",
+        "spatie/schema-org": "^3.4",
+        "composer/installers": "^1.0"
     },
     "archive": {
         "exclude": [

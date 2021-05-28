@@ -14,7 +14,7 @@ Source: [yoast.com](https://yoast.com/what-is-structured-data/)
 
 ## Requirements
 
-- PHP 7.2 or higher
+- PHP 7.3 or higher
 - October CMS (preferably the latest version).
 
 ## Installation
