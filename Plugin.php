@@ -7,14 +7,8 @@ namespace Vdlp\SchemaOrg;
 use System\Classes\PluginBase;
 use Vdlp\SchemaOrg\Components\StructuredData;
 
-/**
- * Class Plugin
- */
 final class Plugin extends PluginBase
 {
-    /**
-     * @inheritDoc
-     */
     public function pluginDetails(): array
     {
         return [
@@ -25,9 +19,6 @@ final class Plugin extends PluginBase
         ];
     }
 
-    /**
-     * @inheritDoc
-     */
     public function registerComponents(): array
     {
         return [

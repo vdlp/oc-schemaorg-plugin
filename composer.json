@@ -1,6 +1,6 @@
 {
     "name": "vdlp/oc-schemaorg-plugin",
-    "description": "Provides the rendering of structured data on your October CMS powered website.",
+    "description": "Provides the rendering of structured data.",
     "type": "october-plugin",
     "license": "GPL-2.0",
     "authors": [
@@ -11,13 +11,14 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.3||^8.0",
+        "php": "^7.3 || ^8.0",
         "spatie/schema-org": "^3.4",
         "composer/installers": "^1.0"
     },
     "archive": {
         "exclude": [
             ".gitignore",
+            ".github",
             ".idea/"
         ]
     }
