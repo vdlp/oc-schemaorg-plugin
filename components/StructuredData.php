@@ -9,9 +9,6 @@ use Illuminate\Contracts\Events\Dispatcher;
 use Spatie\SchemaOrg\Type;
 use Vdlp\SchemaOrg\Classes\Events\FetchStructuredData;
 
-/**
- * Class SchemaOrg
- */
 final class StructuredData extends ComponentBase
 {
     /**
@@ -19,9 +16,6 @@ final class StructuredData extends ComponentBase
      */
     public $structuredData = '';
 
-    /**
-     * @inheritDoc
-     */
     public function componentDetails(): array
     {
         return [
@@ -30,15 +24,13 @@ final class StructuredData extends ComponentBase
         ];
     }
 
-    /**
-     * @inheritDoc
-     */
     public function onRender(): void
     {
         /** @var Dispatcher $eventDispatcher */
         $eventDispatcher = resolve(Dispatcher::class);
 
         $responses = (array) $eventDispatcher->dispatch(FetchStructuredData::class);
+
         foreach ($responses as $response) {
             if (!$response instanceof Type) {
                 continue;

@@ -1,4 +1,4 @@
-# VDLP SchemaOrg plugin
+# Vdlp.SchemaOrg
 
 Provides the rendering of structured data on your October CMS powered website.
 
@@ -8,7 +8,7 @@ Structured data is code in a specific format, written in such a way that search 
 
 There are all kinds of structured data. Structured data is always a code format. There’s structured data for books, for reviews, for movies, and for products in your online store, for instance. In all cases, structured data adds more details to your snippet in the search results.
 
-Browse [Google’s Search Gallery](https://developers.google.com/search/docs/guides/search-gallery) to see which rich results are powered by structured data.
+Browse [Google’s Search Gallery](https://developers.google.com/search/docs/advanced/structured-data/search-gallery) to see which rich results are powered by structured data.
 
 Source: [yoast.com](https://yoast.com/what-is-structured-data/)
 
@@ -19,18 +19,13 @@ Source: [yoast.com](https://yoast.com/what-is-structured-data/)
 
 ## Installation
 
-### Using composer (CLI)
-
 `composer require vdlp/oc-schemaorg-plugin`
-
-### Using the OC Plugin Manager (CLI)
-
-`php artisan plugin:install Vdlp.SchemaOrg`
 
 ## Usage
 
-To render structured data from a component you can listen to the `Vdlp\SchemaOrg\Classes\Events\FetchStructuredData`
-event, see below for an example.
+To render structured data from a component you can listen to the `Vdlp\SchemaOrg\Classes\Events\FetchStructuredData` event.
+
+Example:
 
 ```
 /** @var \Illuminate\Contracts\Events\Dispatcher $eventDispatcher */
@@ -49,7 +44,3 @@ Add the `vdlpStructuredData` component to your page or layout to render the stru
 ## Issues
 
 If you have issues using this plugin. Please create an issue on GitHub or contact us at [octobercms@vdlp.nl]().
-
-## Contribution
-
-Any help is appreciated. Or feel free to create a Pull Request on GitHub.
