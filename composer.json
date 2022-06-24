@@ -1,25 +1,26 @@
 {
     "name": "vdlp/oc-schemaorg-plugin",
     "description": "Provides the rendering of structured data.",
-    "type": "october-plugin",
     "license": "GPL-2.0",
+    "type": "october-plugin",
     "authors": [
         {
             "name": "Van der Let & Partners",
             "email": "octobercms@vdlp.nl"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
-        "php": "^7.3 || ^8.0",
-        "spatie/schema-org": "^3.4",
-        "composer/installers": "^1.0"
+        "php": "^8.0",
+        "composer/installers": "^1.0 || ^2.0",
+        "october/system": "^3.0",
+        "spatie/schema-org": "^3.11"
     },
+    "minimum-stability": "stable",
     "archive": {
         "exclude": [
-            ".gitignore",
+            ".gitattributes",
             ".github",
-            ".idea/"
+            ".gitignore"
         ]
     }
 }
