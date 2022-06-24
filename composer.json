@@ -16,6 +16,12 @@
         "spatie/schema-org": "^3.11"
     },
     "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://gateway.octobercms.com"
+        }
+    ],
     "archive": {
         "exclude": [
             ".gitattributes",
