@@ -11,10 +11,7 @@ use Vdlp\SchemaOrg\Classes\Events\FetchStructuredData;
 
 final class StructuredData extends ComponentBase
 {
-    /**
-     * @var string
-     */
-    public $structuredData = '';
+    public string $structuredData = '';
 
     public function componentDetails(): array
     {
